@@ -27,7 +27,7 @@ MG.game = (function () {
 
     /* Strings for UI ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
     var getLevelString = function () {
-        return mLevel ? 'LEVEL ' + mLevel : 'LEVEL 1 !';
+        return mLevel ? 'LEVEL ' + mLevel : 'WARM UP Champ!';
     }
 
     var Messages = {
@@ -52,15 +52,15 @@ MG.game = (function () {
 
 
     var getLevelStartVelocity   = function (level) {
-        return 300 + 100*level;
+        return 350 + 100*level;
     }
 
     var getLevelFinishVelocity  = function (level) {
-        return 400 + 100*level;
+        return 450 + 100*level;
     }
 
     var getPreLevelIdleVelocity = function (level) {
-        return 350 + 100*level;
+        return 370 + 100*level;
     }
 
     var getPostLevelIdleVelocity = function (level) {
