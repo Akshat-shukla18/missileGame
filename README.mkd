@@ -1,4 +1,3 @@
- https://akshat-shukla18.github.io/missileGame/
 
  Missile Escape Game
 
@@ -7,7 +6,7 @@ Your mission: guide the missile safely through multiple dynamic barriers of vary
 
 Play it live: 👉  https://akshat-shukla18.github.io/missileGame/
 
-Repository: 👉 Insert Repository Link Here
+Repository: 👉 https://github.com/Akshat-shukla18/missileGame
 
 🎮 Game Overview
 
