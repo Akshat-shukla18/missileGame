@@ -137,6 +137,24 @@ MG.game = (function () {
 
         playCrashAnimation()
 
+        // Play shah-rukh-khan sound
+        var shahRukhKhanSound = document.getElementById('shah-rukh-khan-sound');
+        if (shahRukhKhanSound) {
+            console.log('Playing shah-rukh-khan sound');
+            shahRukhKhanSound.currentTime = 0;
+            shahRukhKhanSound.volume = 1.0;
+            var playPromise = shahRukhKhanSound.play();
+            if (playPromise !== undefined) {
+                playPromise.then(function() {
+                    console.log('Shah-rukh-khan sound started playing');
+                }).catch(function(error) {
+                    console.error('Error playing shah-rukh-khan sound:', error);
+                });
+            }
+        } else {
+            console.error('Shah-rukh-khan sound element not found');
+        }
+
         mState = GameState.CRASHED;
 
     }

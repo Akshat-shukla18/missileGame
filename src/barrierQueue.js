@@ -12,7 +12,6 @@ MG.barrierQueue = (function () {
         update: function (dt) {
             var i;
 
-            /* iterate through and update each of the barriers in the queue */
             for (i = mFirstBarrierIndex; i < mBarrierQueue.length; i++) {
                 mBarrierQueue[i].update(dt);
             }

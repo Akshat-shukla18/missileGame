@@ -15,7 +15,7 @@ MG.fog = (function (){
     var mCallback = null;
 
     var mRootNode;
-    var mVisibility = 1.0;
+    var mVisibility = 0.5;
 
     return {
         init: function () {
