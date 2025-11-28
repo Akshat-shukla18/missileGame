@@ -1,1 +1,62 @@
-Missile
+ https://akshat-shukla18.github.io/missileGame/
+
+ Missile Escape Game
+
+A fast-paced, SVG-powered missile navigation game built using JavaScript, CSS, and SVG animations.
+Your mission: guide the missile safely through multiple dynamic barriers of varying structures, sizes, and movement patterns — without crashing!
+
+Play it live: 👉  https://akshat-shukla18.github.io/missileGame/
+
+Repository: 👉 Insert Repository Link Here
+
+🎮 Game Overview
+
+Missile Escape is a lightweight browser game featuring:
+
+✨ Features
+
+Smooth missile controls using JavaScript.
+
+SVG-based obstacles for crisp, scalable graphics.
+
+Multiple barrier types:
+
+Static gaps
+
+Moving horizontal/vertical barriers
+
+Irregular shapes
+
+Narrow tunnels
+
+Progressive difficulty as barriers get faster and tighter.
+
+Collision detection built using SVG coordinates.
+
+CSS animations for bursts, movements & UI effects.
+
+Optimized for performance so it runs smoothly on any modern browser.
+
+🧩 Technologies Used
+Tech	Usage
+JavaScript (Vanilla)	Game logic, collision detection, movement controls
+SVG Graphics	Drawing missile, barriers, dynamic obstacles
+CSS3	Animations, layout, responsive design
+HTML5	Game canvas + basic structure
+🕹️ How to Play
+
+Start the game from the live link or clone the repo.
+
+Use your assigned arrow keys / mouse / touch (whichever you implemented) to control the missile.
+
+Navigate through gaps between the barriers.
+
+Avoid touching:
+
+Barrier edges
+
+Moving obstacles
+
+Walls
+
+Survive as long as possible — obstacles get harder over time!
