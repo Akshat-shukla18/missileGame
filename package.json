@@ -1,0 +1,11 @@
+{
+  "name": "missile-game",
+  "version": "1.0.0",
+  "description": "A 3D game using SVG and javascript",
+  "scripts": {
+    "dev": "http-server"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
